@@ -1,4 +1,4 @@
-import { numbers } from './numbers';
+import { numbers } from '../numbers';
 
 //se puede crear la prueba sin necesidad de usar decsribe, pero igual para tenerlo bien organizado 
 //es buena práctica usar el describe

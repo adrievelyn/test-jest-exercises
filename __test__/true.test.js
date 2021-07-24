@@ -26,6 +26,11 @@ describe ('Probar resultados indefinidos', () => {
         expect(isUndefined()).toBeUndefined()
     });
 });
-
+//is False or True
+describe ('Probar resultados no verdaderos', () => {
+    test('falso o verdadero', () => {
+        expect(isFalse()).not.toBeTruthy();
+    });
+});
 
 
